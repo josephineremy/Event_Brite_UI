@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Event Bright Light</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+  <body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a href="" class="navbar-brand">Event Brite Light</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="components/navbar.html" style="color:#598DE7">Découvre les navbars</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+        </form>
+      </div>
+
+
+      <div class="jumbotron-container" style="background-image: url(https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); background-position: 15% 100%;">
+        <div class="container " style="height: 550px;">
+          <div class="text-center py-5 px-4">
+              <h2 class="card-title h1-responsive pt-3 mb-5 font-bold" style="color:white">Bienvenue sur<h1 style="color:white">EVENT BRITE LIGHT</h1></h2>
+              <h5 class="mx-7 mb-7" style="color:white"><br><a class="btn btn-secondary" type="button" href="components/banner.html">Découvre les bannières</a></h5>
+          </div>
+        </div>
+      </div>
+    <br><br><br>
+
+<h4 class="pl-3">Quelques éléments de navigation</h4><br>
+      <div class="d-flex">
+    <div class="card mb-3" style="width: 500px; text-align: center;">
+      <h3 class="card-header text-center">Kit UI du site</h3>
+      <div class="card-body">
+        <h5 class="card-title">La designer de ce site a concocté un petit kit</h5>
+        <h6 class="card-subtitle text-muted">Celui-ci est unique et spécifique à Event Brite Light</h6>
+      </div>
+      <img width="500px" height="300px" src="https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=757&q=80">
+      <div class="card-body">
+        <p class="card-text">On y retrouve un panel très large d'options de composants afin de créer le site Event Brite Light de votre choix et en toute simplicité</p>
+      </div>
+      <div class="card-body">
+        <a href="components/kitUI.html">Découvre le Kit</a>
+      </div>
+      <div class="card-footer text-muted">
+        © Joséphine Remy
+      </div>
+    </div>
+    <div class="card mb-3" style="width: 500px; text-align: center;">
+      <h3 class="card-header text-center">Formulaire d'inscription</h3>
+      <div class="card-body">
+        <h5 class="card-title">Si vous voulez vous inscrire, c'est par là !</h5>
+      </div>
+      <img width="500px" height="300px" src="https://images.unsplash.com/photo-1580191947416-62d35a55e71d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80">
+      <div class="card-body">
+        <p class="card-text">Venez découvrir le formulaire d'inscription complètement WTF créé par la designer de l'extrême</p>
+      </div>
+      <div class="card-body">
+        <a href="components/authentification_form.html">Découvre le formulaire</a>
+      </div>
+      <div class="card-footer text-muted">
+        © Joséphine Remy
+      </div>
+      </div>
+    </div>
+    <br><br><br>
+
+<h4 class="pl-3">Des cartes événements</h4><br>
+<div class="d-flex">
+  <div class="row justify-content-center">
+    <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+        <div class="card-body">
+          <h4 class="card-title">La Chronologie</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Moulin Rouge</h6>
+          <p class="card-text">Venez danser sur les tubes des 60 dernières années, toutes les heures on change de décennie.</p>
+          <a href="#" class="card-link">Voir l'événement</a>
+          <a href="#" class="card-link">Paris</a>
+        </div>
+
+    </div>
+      <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+          <div class="card-body">
+            <h4 class="card-title">Karaoke Grease</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Cinéma Bourse</h6>
+            <p class="card-text">Le moment de l'année où on s'habille kitch, on apporte notre micro et on chante comme des délurés sur les chansons de Grease.</p>
+            <a href="#" class="card-link">Voir l'événement</a>
+            <a href="#" class="card-link">Bordeaux</a>
+          </div>
+      </div>
+        <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+            <div class="card-body">
+              <h4 class="card-title">Concert de Vald</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Le "Le Club" Club</h6>
+              <p class="card-text">On ne sera pas sobre, ça parait évident. Par contre, on peut parier sur le nombre de chansons que Vald pourra interpréter.</p>
+              <a href="#" class="card-link">Voir l'événement</a>
+              <a href="#" class="card-link">Nantes</a>
+            </div>
+        </div>
+          <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+              <div class="card-body">
+                <h4 class="card-title">Course de vélo</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Stade Vélodrome</h6>
+                <p class="card-text">C'est terminé de monopoliser le stade vélodrome pour du foot. Un vélodrome, c'est pour des vélos. Un point c'est tout.</p>
+                <a href="#" class="card-link">Voir l'événement</a>
+                <a href="#" class="card-link">Marseille</a>
+              </div>
+          </div>
+            <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+                <div class="card-body">
+                  <h4 class="card-title">Pétanque-fléchettes</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Chez Tonton</h6>
+                  <p class="card-text">On vend le pastis au mètre, et on loue toute la place Saint-Pierre pour une soirée haute en beaufitude.</p>
+                  <a href="#" class="card-link">Voir l'événement</a>
+                  <a href="#" class="card-link">Toulouse</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+                <div class="card-body">
+                  <h4 class="card-title">La fin de confins</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Smile</h6>
+                  <p class="card-text">On prévoit un événement au cas où on serait un jour déconfinés, qui c'est... On peut toujours espérer...</p>
+                  <a href="#" class="card-link">Voir l'événement</a>
+                  <a href="#" class="card-link">Lille</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <br><br><br>
+
+    <h4 class="pl-3">Des cartes utilisateurs</h4>
+
+    <div class="my-3 p-4 bg-white rounded box-shadow">
+        <h4 class="border-bottom border-gray pb-2 mb-0">Participants à l'événement Karaoke Grease</h4>
+        <div class="media text-muted pt-3">
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray italic" style="color:gray">
+            <strong class="h6 d-block text-gray-dark normal" style="color:#81A7EA">@mimidu82</strong>
+            We go together, Like rama lama lama ka dinga da dinga dong, Remembered forever, As shoo-bop sha wadda wadda yippity boom de boom
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray italic" style="color:gray">
+            <strong class="h6 d-block text-gray-dark normal" style="color:#81A7EA">@jojoviolon</strong>
+            Summer loving had me a blast, Summer loving happened so fast, I met a girl crazy for me, Met a boy cute as can be...
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray italic" style="color:gray">
+            <strong class="h6 d-block text-gray-dark normal" style="color:#81A7EA">@smashingpumpkin</strong>
+            We'll get some overhead lifters, and four-barrel quads, oh yeah, Fuel injection cut off, and chrome plated rods, oh yeah !!
+          </p>
+        </div>
+      </div>
+
+      <br><br><br>
+
+  <h4 class="pl-3">Des cartes villes</h4>
+  <div class="d-flex">
+    <div class="row justify-content-center">
+      <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="Card image cap" width="500" height="200">
+          <div class="card-body">
+            <h5 class="card-title">Paris</h5>
+            <p class="card-text">La capitale, la seule l'unique</p>
+            <a href="#" class="card-link text-muted">Voir la ville</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1575540121783-60f174302cc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1110&q=80" alt="Card image cap" width="500" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Monaco</h5>
+              <p class="card-text">Pas un événement sous 1000€</p>
+              <a href="#" class="card-link text-muted">Voir la ville</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+              <img class="card-img-top" src="https://images.unsplash.com/photo-1560969184-10fe8719e047?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap" width="500" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Berlin</h5>
+                <p class="card-text">C'est so underground</p>
+                <a href="#" class="card-link text-muted">Voir la ville</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1516296270211-f3ae5494e65d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80" alt="Card image cap" width="500" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">Milan</h5>
+                  <p class="card-text">On y va pour les pâtes</p>
+                  <a href="#" class="card-link text-muted">Voir la ville</a>
+                </div>
+              </div>
+                <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1586987177718-54e088c798b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap" width="500" height="200">
+                    <div class="card-body">
+                      <h5 class="card-title">Bordeaux</h5>
+                      <p class="card-text">+ de 5000€ du mètre carré</p>
+                      <a href="#" class="card-link text-muted">Voir la ville</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-10 col-xs-12 card m-4">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1518910176273-23055ea10c45?ixlib=rb-1.2.1&auto=format&fit=crop&w=984&q=80" alt="Card image cap" width="500" height="200">
+                      <div class="card-body">
+                        <h5 class="card-title">Nantes</h5>
+                        <p class="card-text">C'est à moins de 45 minutes de la mer</p>
+                        <a href="#" class="card-link text-muted">Voir la ville</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+      <br><br><br>
+
+  <h4 class="pl-3">Des commentaires</h4>
+  <div class="row d-flex justify-content-center">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="image-flip" >
+        <div class="mainflip flip-0">
+          <div class="frontside">
+            <div class="card">
+              <div class="card-body text-center">
+                <p><img class="circular--square" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="card image" width="150" height="225"></p>
+                <h4 class="card-title">Joséphine</h4>
+                <small class="text-muted">Ecrit il y a 2 heures</small>
+                <p class="card-text">Trop hâte de pouvoir participer à tous ces événements !</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="image-flip" >
+        <div class="mainflip flip-0">
+          <div class="frontside">
+            <div class="card">
+              <div class="card-body text-center">
+                <p><img class="img-fluid" src="https://images.unsplash.com/photo-1504911539020-cfb0f7887a5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="card image" width="150" height="180"></p>
+                <h4 class="card-title">Emilie</h4>
+                <small class="text-muted">Ecrit hier, à 22h45</small>
+                <p class="card-text">Bonjour, les billets sont-ils remboursables en cas de couvre-feu?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            <br><br><br>
+  <h4 class="pl-3">Section de commentaire</h4>
+
+  <form>
+    <div class="ml-5 form-group mr-5">
+      <label for="example">Prénom</label>
+      <input type="name" class="form-control" placeholder="Prénom">
+    </div>
+    <div class="ml-5 form-group mr-5">
+      <label for="exampleTextarea">Ton commentaire</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+      <fieldset>
+    <button type="submit" class="ml-5 btn btn-primary">Submit</button>
+    </fieldset>
+</form><br><br><br>
+
+    <footer id="footer">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 m-4">
+            <div class="float-lg-right pr-5"><a href="#top">Back to top</a></div>
+            <div><a href="components/footer.html">Découvre les footers</a></div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+              <a href="../index.html"> Event Bright Light</a>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
